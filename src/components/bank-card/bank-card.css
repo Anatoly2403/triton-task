@@ -1,0 +1,142 @@
+.bank-card {
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    border: 2px solid black;
+    width: 400px;
+    height: 360px;
+    padding: 40px;
+}
+
+.bank-card__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bank-card__data-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bank-card__number {
+    width: 100%;
+}
+
+.bank-card__holder {
+    width: 100%;
+}
+
+.bank-card__expires {
+    width: 25%;
+}
+
+.bank-card__cvv {
+    width: 25%;
+}
+
+input {
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    padding: 0 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card {
+    position: absolute;
+    top: -60px;
+    width: 80%;
+    height: 45%;
+    border: 2px solid black;
+    background-color: rgb(119, 190, 78);
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 2;
+}
+
+.card__pay-system {
+    position: relative;
+    top: 0;
+    left: 74%;
+    width: 80px;
+    height: 40px;
+    font-weight: bolder;    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.card__number {
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+
+.card__number span {
+    font-weight: bolder;
+}
+
+.card__holder {
+    position: relative;
+    top: 25%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__holder span {
+    font-weight: bolder;
+}
+
+.card__expires {
+    position: relative;
+    left: 54%;
+    top: -10px;
+    width: 45%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card__expires span {
+    font-weight: bolder;
+}

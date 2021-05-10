@@ -1,0 +1,16 @@
+.cart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 30px;
+    padding: 25px 0;
+    justify-items: center;
+    position: relative;
+}
+
+.cart__back-btn {
+    position: fixed;
+    top: 50px;
+    left: 60px;
+    color: black;
+}

@@ -1,0 +1,21 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    row-gap: 20px;
+    padding: 25px 0;
+}
+
+.catalog__upper {  
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.catalog__lower {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
